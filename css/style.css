@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px;
+}
+
+/* Search & Filter Section */
+#searchBox, #categoryFilter {
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Product Cards */
+.card {
+    margin: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Product Images */
+.card img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+/* Buttons */
+.btn-primary, .btn-warning {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Product Details */
+#product-details img {
+    max-width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Cart Items */
+#cart-items p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card img {
+        max-height: 150px;
+    }
+}
